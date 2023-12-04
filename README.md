@@ -17,7 +17,7 @@ APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=
 APP_DEBUG=true
-APP_URL=http://localhost:8989
+APP_URL=http://localhost:8787
 
 LOG_CHANNEL=stack
 LOG_DEPRECATIONS_CHANNEL=null
@@ -94,7 +94,7 @@ php artisan key:generate
 
 
 Acesse o projeto
-[http://localhost:8989](http://localhost:8989)
+[http://localhost:8989](http://localhost:8787)
 
 
 github: https://github.com/VictorPadovan1997/setup-docker-laravel-10

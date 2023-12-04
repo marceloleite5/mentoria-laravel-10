@@ -17,7 +17,7 @@ services:
         image: nginx:alpine
         restart: unless-stopped
         ports:
-            - "8989:80"
+            - "8787:80"
         volumes:
             - ./:/var/www
             - ./docker/nginx/:/etc/nginx/conf.d/
@@ -36,7 +36,7 @@ services:
         volumes:
             - ./.docker/mysql/dbdata:/var/lib/mysql
         ports:
-            - "3388:3306"
+            - "3358:3306"
         networks:
             - sistema-getao-network
 
@@ -59,7 +59,7 @@ networks:
 
 #Doc. de utilizacao
 # para acessar phpmyadmin no navegador: http://localhost:8899/ -  e a porta
-# para acessar nginx(servidor) no navegador: http://localhost:8989/ - e a porta
+# para acessar nginx(servidor) no navegador: http://localhost:8787/ - e a porta
 
 #PHPMYADMIN info no file
 # servidor: mysql
