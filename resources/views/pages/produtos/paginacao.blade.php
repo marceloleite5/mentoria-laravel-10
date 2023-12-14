@@ -7,7 +7,7 @@
   <div>
     <form action="{{ route('produto.index') }}" method="get">
       <input type="text" name="pesquisar" placeholder="Digite o nome" id="">
-      <button>Pesquisar</button>
+      <button class="btn btn-light btn-sm">Pesquisar</button>
       <a type="button" href="{{ route('cadastrar.produto')}}" class="btn btn-success float-end">Incluir Produto</a>
     </form>
     <div class="table-responsive mt-4">
